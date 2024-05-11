@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+    background-color: #f0cccc;
+}
+
+header {
+    text-transform: uppercase;
+    margin-bottom: 20px ;
+}
+
+.container {
+    margin: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+input {
+    padding: 8px;
+    background-color: #fff;
+    border: none;
+}
+
+button {
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: #b3aeaef3;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+#lista-tarefas {
+    margin: 30px;
+    list-style: none;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
